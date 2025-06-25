@@ -27,5 +27,7 @@ uvicorn app.main:app --reload
 Открой в браузере http://localhost:8000/docs — там интерфейс для работы с API.
 
 Доступные эндпоинты
+
 POST /api/parse/ — запускает парсинг статьи по ссылке
+
 POST /api/summary/ — генерирует summary для основной статьи
